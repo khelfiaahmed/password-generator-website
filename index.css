@@ -1,0 +1,123 @@
+body {
+    background-color: #1E293B;
+    background-size:cover;
+    font-family: 'karla', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    height: 1000px;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: left;
+    padding: 32px;
+    max-width: 400px;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: white;
+  }
+  
+  .highlight {
+    color: #22c55e;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    margin-top: 8px;
+    color: #CBD5E1;
+    font-size: 16px;
+  }
+  
+  .generate-btn {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 24px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-btn:hover {
+    color:#16a34a;
+    background-color:rgb(2, 16, 5);
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .password-input {
+    flex: 1;
+    background-color: #1E293B;
+    border: 2px solid #334155;
+    border-radius: 8px;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  .underline{
+    border-bottom:1px solid #CBD5E1;
+
+  }
+  .length-label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #CBD5E1;
+  }
+  
+  #length-el {
+    width: 80px; /* ou la largeur que tu veux, ex: 120px */
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #334155;
+    background-color: #1E293B;
+    color: white;
+    font-size: 16px;
+  }
+  .password-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .copy-btn {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .copy-btn:hover {
+    background-color: #061b47;
+    color:white;
+    box-shadow:0 0 2px #fff;
+  }
+  .options {
+    margin-bottom: 16px;
+    color: #CBD5E1;
+    font-size: 14px;
+    display: flex;
+    gap: 24px;
+  }
+  
+  .options label {
+    cursor: pointer;
+    user-select: none;
+  }
+  
